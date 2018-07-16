@@ -27,7 +27,7 @@ public class Member {
 	@Id
 	@GeneratedValue(generator = "uuid")
 	@GenericGenerator(name = "uuid", strategy = "uuid2")
-	@Column(name = "member_id", length = 36)
+	@Column(name = "id", length = 36)
 	public String id;
 
 	/**
